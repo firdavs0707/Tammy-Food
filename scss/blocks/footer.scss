@@ -1,0 +1,48 @@
+footer {
+  margin-top: 200px;
+  padding-top: 150px;
+  z-index: 0;
+  background-color: #232233;
+}
+
+.tammy-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tammy {
+  width: 330px;
+}
+
+.q-links{
+  width: 145px;
+}
+
+.news {
+  width: 370px;
+}
+
+.tammy-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.line {
+  z-index: 2;
+  border: #ffffff;
+  background: rgba($color: #fff, $alpha: 1);
+  max-width: 1230px;
+  height: 3px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.copyright {
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,143 @@
+p {
+  text-decoration: none;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.inner-intro-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-intro {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #3C3C3C;
+}
+
+.text-info-intro {
+  max-width: 500px;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #667085;
+}
+
+.advantages-list {
+  height: 350px;  
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  justify-content: space-between;
+}
+
+.ad-item1 {
+  margin-bottom: 50px;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.ad-item2 {
+  margin-bottom: 50px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.ad-item3 {
+  text-align: center;
+  align-self: flex-start;
+}
+
+.ad-img1 {
+  margin-bottom: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70px;align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #335DFF;
+}
+
+.ad-img2 {
+  margin-bottom: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70px;align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #F6CA00;
+}
+
+.ad-img3 {
+  margin-bottom: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70px;align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #0BD28E;
+}
+
+.item-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3C3C3C;
+}
+
+.item-info-text {
+  max-width: 309px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #667085;
+}
+
+@media only screen and (max-width: 860px) {
+  .advantages-list {
+    height: none;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advatages {
+    width: 280px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

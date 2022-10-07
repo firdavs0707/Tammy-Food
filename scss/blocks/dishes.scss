@@ -1,0 +1,133 @@
+.section-dishes {
+  z-index: 0;
+}
+
+.dish-main-title {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #3C3C3C;
+}
+
+.info-dish {
+  max-width: 434px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #667085;
+}
+
+.carusel {
+  height: 845px;
+}
+
+.carousel-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.list-item-dish {
+  margin-top: 50px;
+  width: 280px;
+  height: 350px;
+  border: 0.698848px solid rgba(112, 112, 112, 0.2);
+  border-radius: 10.4827px;
+  margin-bottom: 0px;
+}
+
+.item-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.item-img3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 25px auto 15px auto;
+}
+
+.stars {
+  width: 120px;
+  margin-left: 20px;
+}
+
+.dish-title {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.info-dish {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #667085;
+}
+
+.info-about-dish {
+  margin-left: 20px;
+}
+
+.dish-footer {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.img-button:active {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+
+// ONLY MEDIA
+
+@media only screen and (max-width: 860px) {
+  .dishes-innner-div {
+    margin-top: 380px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .dnone {
+    display: none;
+  }
+
+  .carousel-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dish-main-title {
+    font-size: 25+px;
+  }
+}

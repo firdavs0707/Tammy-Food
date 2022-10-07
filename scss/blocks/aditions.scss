@@ -1,0 +1,69 @@
+.additions {
+  margin-top: 100px;
+  background-color: #FFFBF3;
+}
+
+.inner-additions-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fast-del {
+  margin-bottom: 20px;
+}
+
+.div-for-content {
+  max-width: 520px;
+}
+
+.get-s2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  background-color: #FFC12F;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.addition-title {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;  
+  color: #535353;
+  margin-bottom: 50px;
+}
+
+.addition-info {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #667085;
+}
+
+@media only screen and (max-width: 770px){
+  .inner-additions-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fast-del {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .add-img-main {
+    width: 290px;
+    height: 600px;
+  }
+}
